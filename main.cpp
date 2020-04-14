@@ -8,7 +8,7 @@
 #include <string>
 
 
-const int INF = static_cast<int>(1e9);
+/*const int INF = static_cast<int>(1e9);
 
 
 const int number_of_operations = static_cast<int>(1e6);
@@ -92,11 +92,9 @@ void TestAll() {
 	{ LOG_DURATION(toString(number_of_operations) + " insert operations std::set test");
 		speedTest<std::set<int>>();
 	}
-}
+}*/
 
 
 int main () {
-	srand(time(0));
-	TestAll();
 	return 0;
 }
